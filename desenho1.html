@@ -1,0 +1,14 @@
+<canvas width="1200" height="600"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    /* Limites do desenho */
+    pincel.strokeStyle = 'black';
+    pincel.strokeRect(0, 0, 1200, 600);
+    /* Desenhando o Creeper */
+    pincel.fillStyle = '#0CBF59';
+    pincel.fillRect(200, 50, 350, 300);
+   
+
+</script>
